@@ -22,6 +22,9 @@ import {
   LocationRegion,
   LocationSubscription,
   LocationTaskOptions,
+  LocationActivityType,
+  LocationGeofencingEventType,
+  LocationGeofencingRegionState,
   LocationGeocodingOptions,
 } from './Location.types';
 import { LocationEventEmitter } from './LocationEventEmitter';
@@ -499,7 +502,6 @@ export {
   LocationGeofencingEventType as GeofencingEventType,
   LocationGeofencingRegionState as GeofencingRegionState,
   PermissionStatus,
-  PermissionHookOptions,
   setGoogleApiKey,
 };
 
